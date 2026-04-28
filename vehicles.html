@@ -70,11 +70,11 @@
 
         <div class="filter-bar" role="group" aria-label="カテゴリフィルター">
           <button type="button" class="filter-chip active">すべて</button>
-          <button type="button" class="filter-chip">特定小型原付</button>
-          <button type="button" class="filter-chip">電動原付</button>
-          <button type="button" class="filter-chip">超小型モビリティ</button>
-          <button type="button" class="filter-chip">電動アシスト自転車</button>
-          <button type="button" class="filter-chip">屋根付き</button>
+          <button type="button" class="filter-chip">コンパクト</button>
+          <button type="button" class="filter-chip">スタンダード</button>
+          <button type="button" class="filter-chip">プレミアム</button>
+          <button type="button" class="filter-chip">カーゴ</button>
+          <button type="button" class="filter-chip">大型ファミリー</button>
         </div>
 
         <div class="vehicle-grid">
@@ -82,25 +82,19 @@
           <article class="vehicle-card">
             <div class="vehicle-thumb">
               <span class="vehicle-tag">車検不要</span>
-              <svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <circle cx="55" cy="110" r="22" fill="none" stroke="#1f2a24" stroke-width="4"/>
-                <circle cx="145" cy="110" r="22" fill="none" stroke="#1f2a24" stroke-width="4"/>
-                <path d="M55 110 L100 60 L145 110" stroke="#2d8a5a" stroke-width="5" fill="none" stroke-linecap="round"/>
-                <path d="M100 60 L130 50" stroke="#2d8a5a" stroke-width="5" fill="none" stroke-linecap="round"/>
-                <rect x="85" y="40" width="35" height="20" rx="3" fill="#f0a04b"/>
-              </svg>
+              <img src="assets/images/riksha-s1.jpg" alt="コンパクト電動Eリキシャ Family Trike S1">
             </div>
             <div class="vehicle-body">
-              <p class="vehicle-category">特定小型原付</p>
-              <h3 class="vehicle-name">Glide City S2</h3>
+              <p class="vehicle-category">電動Eリキシャ / コンパクト</p>
+              <h3 class="vehicle-name">Family Trike S1</h3>
               <ul class="vehicle-specs">
+                <li>3人乗り</li>
                 <li>航続40km</li>
-                <li>免許不要*</li>
+                <li>屋根付き</li>
                 <li>2024年式</li>
-                <li>走行 320km</li>
               </ul>
               <div class="vehicle-price">
-                <span><span class="price">98,000</span><span class="price-unit">円</span></span>
+                <span><span class="price">248,000</span><span class="price-unit">円</span></span>
                 <span class="tax">税込</span>
               </div>
             </div>
@@ -109,22 +103,37 @@
           <article class="vehicle-card">
             <div class="vehicle-thumb thumb-orange">
               <span class="vehicle-tag tag-new">人気</span>
-              <svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <circle cx="55" cy="115" r="20" fill="#1f2a24"/>
-                <circle cx="145" cy="115" r="20" fill="#1f2a24"/>
-                <rect x="40" y="70" width="120" height="40" rx="14" fill="#f0a04b"/>
-                <path d="M50 70 L70 45 L130 45 L150 70 Z" fill="#f0a04b"/>
-                <rect x="78" y="50" width="44" height="18" rx="3" fill="#cde8f5"/>
-              </svg>
+              <img src="assets/images/riksha-m1.jpg" alt="4人乗り電動Eリキシャ Family Riksha M1">
             </div>
             <div class="vehicle-body">
-              <p class="vehicle-category">超小型モビリティ / 屋根付き</p>
+              <p class="vehicle-category">電動Eリキシャ / スタンダード</p>
+              <h3 class="vehicle-name">Family Riksha M1</h3>
+              <ul class="vehicle-specs">
+                <li>4人乗り</li>
+                <li>航続70km</li>
+                <li>屋根＋サイドドア</li>
+                <li>2023年式</li>
+              </ul>
+              <div class="vehicle-price">
+                <span><span class="price">398,000</span><span class="price-unit">円</span></span>
+                <span class="tax">税込</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="vehicle-card">
+            <div class="vehicle-thumb thumb-blue">
+              <span class="vehicle-tag">人気</span>
+              <img src="assets/images/riksha-f1.jpg" alt="プレミアム電動Eリキシャ Family Pod F1">
+            </div>
+            <div class="vehicle-body">
+              <p class="vehicle-category">電動Eリキシャ / 屋根付き</p>
               <h3 class="vehicle-name">Family Pod F1</h3>
               <ul class="vehicle-specs">
+                <li>3人乗り（大人2+子1)</li>
                 <li>航続100km</li>
-                <li>2人乗り</li>
+                <li>ガラスキャノピー</li>
                 <li>2023年式</li>
-                <li>走行 1,800km</li>
               </ul>
               <div class="vehicle-price">
                 <span><span class="price">498,000</span><span class="price-unit">円〜</span></span>
@@ -134,55 +143,21 @@
           </article>
 
           <article class="vehicle-card">
-            <div class="vehicle-thumb thumb-blue">
-              <span class="vehicle-tag">車検不要</span>
-              <svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <circle cx="55" cy="115" r="20" fill="#1f2a24"/>
-                <circle cx="145" cy="115" r="20" fill="#1f2a24"/>
-                <path d="M40 100 Q55 60 100 60 Q145 60 160 100" fill="#3a7fb8"/>
-                <rect x="92" y="40" width="6" height="30" fill="#1f2a24"/>
-                <rect x="80" y="35" width="30" height="5" rx="2" fill="#1f2a24"/>
-              </svg>
-            </div>
-            <div class="vehicle-body">
-              <p class="vehicle-category">電動原付</p>
-              <h3 class="vehicle-name">EcoRide N50</h3>
-              <ul class="vehicle-specs">
-                <li>航続60km</li>
-                <li>原付免許</li>
-                <li>2024年式</li>
-                <li>走行 540km</li>
-              </ul>
-              <div class="vehicle-price">
-                <span><span class="price">158,000</span><span class="price-unit">円</span></span>
-                <span class="tax">税込</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="vehicle-card">
             <div class="vehicle-thumb">
-              <span class="vehicle-tag">子乗せ対応</span>
-              <svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <circle cx="50" cy="115" r="20" fill="none" stroke="#1f2a24" stroke-width="5"/>
-                <circle cx="150" cy="115" r="20" fill="none" stroke="#1f2a24" stroke-width="5"/>
-                <path d="M50 115 L90 60 L150 115" stroke="#2d8a5a" stroke-width="5" fill="none" stroke-linecap="round"/>
-                <path d="M90 60 L120 60 L150 115" stroke="#2d8a5a" stroke-width="5" fill="none" stroke-linecap="round"/>
-                <rect x="115" y="40" width="25" height="20" rx="3" fill="#f0a04b"/>
-                <line x1="60" y1="50" x2="80" y2="50" stroke="#1f2a24" stroke-width="4" stroke-linecap="round"/>
-              </svg>
+              <span class="vehicle-tag tag-new">新着</span>
+              <img src="assets/images/riksha-c1.jpg" alt="カーゴ電動Eリキシャ Cargo Trike C1">
             </div>
             <div class="vehicle-body">
-              <p class="vehicle-category">電動アシスト自転車</p>
-              <h3 class="vehicle-name">SmartKids E-Bike</h3>
+              <p class="vehicle-category">電動Eリキシャ / カーゴ</p>
+              <h3 class="vehicle-name">Cargo Trike C1</h3>
               <ul class="vehicle-specs">
-                <li>後ろ乗せシート付</li>
-                <li>3人乗り対応</li>
-                <li>2023年式</li>
-                <li>走行 1,200km</li>
+                <li>3人乗り＋大型カーゴ</li>
+                <li>航続60km</li>
+                <li>買い物・送迎兼用</li>
+                <li>2024年式</li>
               </ul>
               <div class="vehicle-price">
-                <span><span class="price">79,800</span><span class="price-unit">円</span></span>
+                <span><span class="price">328,000</span><span class="price-unit">円</span></span>
                 <span class="tax">税込</span>
               </div>
             </div>
@@ -190,51 +165,17 @@
 
           <article class="vehicle-card">
             <div class="vehicle-thumb thumb-blue">
-              <span class="vehicle-tag">車検不要</span>
-              <svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <circle cx="55" cy="115" r="20" fill="#1f2a24"/>
-                <circle cx="145" cy="115" r="20" fill="#1f2a24"/>
-                <path d="M40 100 Q55 65 100 65 Q145 65 160 100" fill="#3a7fb8"/>
-                <rect x="80" y="40" width="40" height="28" rx="6" fill="#3a7fb8"/>
-                <rect x="86" y="46" width="28" height="16" rx="2" fill="#cde8f5"/>
-              </svg>
+              <span class="vehicle-tag">プレミアム</span>
+              <img src="assets/images/riksha-f2.jpg" alt="フルキャビン電動Eリキシャ Family Pod F2">
             </div>
             <div class="vehicle-body">
-              <p class="vehicle-category">電動原付二種</p>
-              <h3 class="vehicle-name">EcoRide N125</h3>
-              <ul class="vehicle-specs">
-                <li>航続80km</li>
-                <li>2人乗り</li>
-                <li>2022年式</li>
-                <li>走行 3,400km</li>
-              </ul>
-              <div class="vehicle-price">
-                <span><span class="price">228,000</span><span class="price-unit">円</span></span>
-                <span class="tax">税込</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="vehicle-card">
-            <div class="vehicle-thumb thumb-orange">
-              <span class="vehicle-tag tag-new">新着</span>
-              <svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <circle cx="55" cy="115" r="18" fill="#1f2a24"/>
-                <circle cx="145" cy="115" r="18" fill="#1f2a24"/>
-                <rect x="35" y="55" width="130" height="50" rx="10" fill="#f0a04b"/>
-                <rect x="50" y="62" width="40" height="22" rx="2" fill="#cde8f5"/>
-                <rect x="110" y="62" width="40" height="22" rx="2" fill="#cde8f5"/>
-                <rect x="155" y="68" width="8" height="6" fill="#fff"/>
-              </svg>
-            </div>
-            <div class="vehicle-body">
-              <p class="vehicle-category">超小型EV / 4人乗り</p>
+              <p class="vehicle-category">電動Eリキシャ / フルキャビン</p>
               <h3 class="vehicle-name">Family Pod F2</h3>
               <ul class="vehicle-specs">
+                <li>4人乗り（大人2+子2）</li>
                 <li>航続120km</li>
-                <li>4人乗り</li>
+                <li>密閉キャビン</li>
                 <li>2024年式</li>
-                <li>走行 800km</li>
               </ul>
               <div class="vehicle-price">
                 <span><span class="price">698,000</span><span class="price-unit">円〜</span></span>
@@ -243,10 +184,31 @@
             </div>
           </article>
 
+          <article class="vehicle-card">
+            <div class="vehicle-thumb thumb-orange">
+              <span class="vehicle-tag tag-new">新着</span>
+              <img src="assets/images/riksha-xl.jpg" alt="大型6人乗り電動Eリキシャ Family Pod XL">
+            </div>
+            <div class="vehicle-body">
+              <p class="vehicle-category">電動Eリキシャ / 大型6人乗り</p>
+              <h3 class="vehicle-name">Family Pod XL</h3>
+              <ul class="vehicle-specs">
+                <li>6人乗り</li>
+                <li>航続150km</li>
+                <li>パノラマガラスルーフ</li>
+                <li>2024年式</li>
+              </ul>
+              <div class="vehicle-price">
+                <span><span class="price">798,000</span><span class="price-unit">円〜</span></span>
+                <span class="tax">税込</span>
+              </div>
+            </div>
+          </article>
+
         </div>
 
         <p class="form-note text-center" style="margin-top:32px;">
-          *特定小型原付は16歳以上であれば免許不要です。ヘルメットは努力義務です。
+          *電動Eリキシャは車種・乗員数により「特定小型原付／電動原付二種／超小型モビリティ」のいずれかに区分され、必要免許・走行ルールが異なります。詳しくはお問い合わせください。
         </p>
 
       </div>
